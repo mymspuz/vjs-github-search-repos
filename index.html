@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="sass/style.css">
+</head>
+<body>
+    <div class="container">
+        <form action="#" name="reposForm">
+            <div class="form-group">
+                <input type="text" id="reposSearch" name="reposSearch" class="form-control" placeholder="Введите имя репозитория">
+                <label for="reposSearch" class="form-label text-danger" hidden></label>
+            </div>
+            <div class="form-actions">
+                <button type="submit" class="btn btn-search" id="btnSearch" disabled>Поиск</button>
+                <button class="btn btn-cancel" id="btnCancel">Очистить</button>
+            </div>
+        </form>
+
+        <div class="repos-list"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
